@@ -13,6 +13,8 @@ public class CameraTarget : MonoBehaviour {
     [SerializeField] private Axis axis = Axis.XZ;
     [SerializeField] private float moveSpeed = 50f;
 
+    private float cameraY;
+
     private void Update() {
         float moveX = 0f;
         float moveY = 0f;
@@ -51,6 +53,11 @@ public class CameraTarget : MonoBehaviour {
         }
 
         transform.position += moveDir * moveSpeed * Time.deltaTime;
+
+        float zoomSpeed = 1f;
+        cameraY += -Input.mouseScrollDelta.y * zoomSpeed;
+        cameraY = Mathf.Clamp(cameraY, -3f, 40);
+        transform.position = new Vector3(transform.position.x, cameraY, transform.position.z);
     }
 
 }
