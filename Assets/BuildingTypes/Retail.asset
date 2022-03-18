@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Retail
   m_EditorClassIdentifier: 
   nameString: Retail
-  prefab: {fileID: 2198564448951621816, guid: 1b4c4417cf02b0c42ac32a710ec223bb, type: 3}
+  prefab: {fileID: 5301442161061134160, guid: 9c427bba52a31b64f874c897a053568a, type: 3}
+  visual: {fileID: 5301442161061134160, guid: f60780402882e754e9ea75e0e2aa17fd, type: 3}
   width: 2
   height: 1

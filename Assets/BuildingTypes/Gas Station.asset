@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Gas Station
   m_EditorClassIdentifier: 
   nameString: Gas Station
-  prefab: {fileID: 2198564448951621816, guid: 23b5575f7638f7f4f82f4cbc2f2abe33, type: 3}
+  prefab: {fileID: 5301442161061134160, guid: 5d171b629c6094145a9a95ae37423bed, type: 3}
+  visual: {fileID: 5301442161061134160, guid: 01b25bb0fce35bc438c66f7a6e591e78, type: 3}
   width: 2
   height: 2

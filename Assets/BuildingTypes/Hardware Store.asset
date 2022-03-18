@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Hardware Store
   m_EditorClassIdentifier: 
   nameString: Hardware Store
-  prefab: {fileID: 2198564448951621816, guid: 3c091e2e19cfbc442951c469f60c8471, type: 3}
+  prefab: {fileID: 5301442161061134160, guid: 98ebfcac578c8ba4dbab80d4e34e4f07, type: 3}
+  visual: {fileID: 5301442161061134160, guid: 0dc4be5f2f3f7f64cb111805f9c87c78, type: 3}
   width: 2
   height: 1
